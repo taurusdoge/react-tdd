@@ -1,3 +1,5 @@
+import RestaurantList from "../../src/components/RestaurantList";
+
 describe('Listing Restaurants', () => {
   it('shows restaurants from the server', () => {
     const sushiPlace = 'Sushi Place';

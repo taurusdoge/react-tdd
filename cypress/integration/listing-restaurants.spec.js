@@ -2,8 +2,8 @@ import RestaurantList from "../../src/components/RestaurantList";
 
 describe('Listing Restaurants', () => {
   it('shows restaurants from the server', () => {
-    const sushiPlace = 'Sushi Place';
-    const pizzaPlace = 'Pizza Place';
+    const sushiPlace = 'Salad Place';
+    const pizzaPlace = 'Pasta Place';
 
     cy.server({ force404: true });
 

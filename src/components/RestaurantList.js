@@ -1,11 +1,8 @@
-import { useEffect } from "react";
-import { connect } from "react-redux";
-import { loadRestaurants } from "../store/restaurants/actions";
+import {useEffect} from "react";
+import {connect} from "react-redux";
+import {loadRestaurants} from "../store/restaurants/actions";
 
-export const RestaurantList = ({ 
-  loadRestaurants,
-  restaurants
-}) => {
+export const RestaurantList = ({loadRestaurants, restaurants}) => {
   useEffect(() => {
     loadRestaurants();
   }, [loadRestaurants]);

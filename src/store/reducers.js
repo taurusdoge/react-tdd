@@ -1,6 +1,6 @@
-import {combineReducers} from "redux";
+import {combineReducers} from 'redux';
 // import {STORE_RESTAURANTS} from "./restaurants/actions";
-import restaurants from "./restaurants/reducers";
+import restaurants from './restaurants/reducers';
 
 // const records = (state = [], action) => {
 //   switch (action.type) {

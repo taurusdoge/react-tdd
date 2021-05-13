@@ -6,6 +6,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Alert from '@material-ui/lab/Alert';
 import {loadRestaurants} from '../store/restaurants/actions';
+import React from 'react';
 
 export const RestaurantList = ({
   loadRestaurants,
@@ -27,7 +28,7 @@ export const RestaurantList = ({
 
       <List>
         {restaurants.map(restaurant => (
-          <ListItem key={restaurants.id}>
+          <ListItem key={restaurant.id}>
             <ListItemText>{restaurant.name}</ListItemText>
           </ListItem>
         ))}
